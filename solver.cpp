@@ -72,7 +72,7 @@ namespace solver
 		{
 			if (doublesEqual(b, 0.0))
 			{
-				throw std::invalid_argument("Zero division is prohibited");
+				throw std::invalid_argument("There is no solution");
 			}
 			else
 			{
@@ -172,7 +172,7 @@ namespace solver
             if(real.c == 0)
             {
                 // throw ...
-                throw std::invalid_argument("throw");
+                throw std::invalid_argument("Divide zero");
             }
             else
             {
@@ -349,7 +349,7 @@ namespace solver
             if(complexAndDoublEqual(complex.c, 0.0))
             {
                 // throw ...
-                throw std::invalid_argument("throw");
+                throw std::invalid_argument("Divide zero");
             }
             else
             {
@@ -509,7 +509,7 @@ namespace solver
 		{
 			if (complexAndDoublEqual(b, 0.0))
 			{
-				throw std::invalid_argument("thr");
+				throw std::invalid_argument("There is no solution");
 			}
 			else // bx = c
 			{
